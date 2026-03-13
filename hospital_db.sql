@@ -243,14 +243,14 @@ CREATE TABLE IF NOT EXISTS `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `role`, `created_at`, `updated_at`) VALUES
-(1, 'Admin', 'admin@hospital.dz', '$2y$10$e0NRPRAQe3iTiLyO07raGeUGtUBh..YrkBvM0lzB8wq1a9FShnF0a', 'admin', '2026-01-08 14:17:28', '2026-01-08 14:17:28'),
+(1, 'Admin', 'admin@hospital.dz', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin', '2026-01-08 14:17:28', '2026-01-08 14:17:28'),
 (2, 'Layal', 'layal@hospital.dz', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'admin', '2026-01-17 09:12:45', '2026-01-21 19:51:17'),
-(7, 'mariem', 'marieml@hospital.dz', '$2y$10$ycECGFd62B5uYfxWj/3TJ.T7frx0fxVrus.MhS/ZFLFY9vjlVb.gu', 'doctor', '2026-03-04 15:34:40', '2026-03-04 15:34:40'),
-(6, 'wissal', 'wissal@hospital.dz', '$2y$10$vmfWwMlLwfqJC1ql1Otnz.LiucdyOT.R7dcqFHlyIJHu4ORfKVemW', 'doctor', '2026-01-22 09:30:47', '2026-01-22 09:30:47'),
-(5, 'ahmed', 'ahmed@hospital.dz', '$2y$10$JEvdYD4zJckcBePt6mFtL.ZzUwRZCpbA.3PzAmzlFogHBDqKfOMW6', 'doctor', '2026-01-21 18:56:08', '2026-01-21 18:56:08'),
-(8, 'mariem', 'mariem@hospital.dz', '$2y$10$cFG5eFqQg7ha6y5448/vQuFu.6kPSXjS0/d7GPjMIXmEebTzYOe1G', 'lab_worker', '2026-03-04 15:41:11', '2026-03-04 15:41:11'),
-(9, 'mohamed', 'mohamed@hospital.dz', '$2y$10$yb20T7SUSaf0EjAYGsKhHuN68KncJCwpuotIZssBzCalaNAdKQiOm', 'lab_worker', '2026-03-04 15:42:41', '2026-03-04 15:42:41'),
-(11, 'nour', 'nour@hospital.dz', '$2y$10$Bz.XMykwU2EJvzibZZ1kLuAaI6dabO8b8bKXo5gpNwaWpx9/nhCfi', 'xray_worker', '2026-03-05 14:13:29', '2026-03-05 14:13:29');
+(7, 'mariem', 'marieml@hospital.dz', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'doctor', '2026-03-04 15:34:40', '2026-03-04 15:34:40'),
+(6, 'wissal', 'wissal@hospital.dz', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'doctor', '2026-01-22 09:30:47', '2026-01-22 09:30:47'),
+(5, 'ahmed', 'ahmed@hospital.dz', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'doctor', '2026-01-21 18:56:08', '2026-01-21 18:56:08'),
+(8, 'mariem', 'mariem@hospital.dz', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'lab_worker', '2026-03-04 15:41:11', '2026-03-04 15:41:11'),
+(9, 'mohamed', 'mohamed@hospital.dz', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'lab_worker', '2026-03-04 15:42:41', '2026-03-04 15:42:41'),
+(11, 'nour', 'nour@hospital.dz', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 'xray_worker', '2026-03-05 14:13:29', '2026-03-05 14:13:29');
 
 -- --------------------------------------------------------
 
