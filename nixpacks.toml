@@ -4,7 +4,25 @@ aptPkgs = ["..."]
 
 [phases.install]
 cmds = [
-    "mkdir -p /opt/buildhome/repo/storage/framework/{sessions,views,cache}",
+    "mkdir -p /o[phases.setup]
+    nixPkgs = ["php82", "php82Extensions.pdo", "php82Extensions.pdo_mysql", "php82Extensions.mbstring"]
+    
+    [phases.install]
+    cmds = [
+        "mkdir -p storage/framework/{sessions,views,cache}",
+            "composer install --no-dev --optimize-autoloader"
+            ]
+            
+            [phases.build]
+            cmds = [
+                "php artisan config:cache",
+                    "php artisan route:cache",
+                        "php artisan view:cache"
+                        ]
+                        
+                        [start]
+                        cmd = "php artisan serve --host=0.0.0.0 --port=${PORT:-8080}"
+                        pt/buildhome/repo/storage/framework/{sessions,views,cache}",
     "composer install --no-dev --optimize-autoloader"
 ]
 
